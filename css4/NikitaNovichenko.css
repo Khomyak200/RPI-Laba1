@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    z-index:2 ;
+}
+
+:root {
+    --bg-color: rgba(24, 24, 24, 1);
+    --accent-color: rgb(164, 96, 249);
+}
+
+.rotated-180 {
+    transform: rotate(180deg);
+}
+
+.rotated-90 {
+    transform: rotate(90);
+}
+
+/* --- Page itself --- */
+body {
+    position: relative;
+    box-sizing: border-box;
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px 57px 0;
+}
+
+nav {
+    display: flex;  
+    align-items: center;
+    color: white;
+}
+
+.nav-link {
+    margin-right: 134px;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.nav-link:hover::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: 13px;
+    height: 3px;
+    
+    background-color: white;
+}
+
+.sign-in {
+    box-sizing: border-box;
+    width: 99px;
+    height: 35px;
+    padding: auto 0;
+    border: solid 1px black;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    color: var(--bg-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+}
+.sign-in :first-child {
+    vertical-align: middle;
+}
+
+.menu {
+    margin-left: 75px;
+    display: inline-flex;
+}
+
+/* Main block */
+main {
+    display: flex;
+    padding-top: 79px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Krub', sans-serif;
+}
+
+main .intro, main .illustro, main .info {
+    width: 33.33%;
+}
+main .illustro{
+    display: flex;
+    justify-content: center;
+
+    background: url("img/main/Circle.png") no-repeat center;
+}
+
+/* Left block - intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-top: 44px;
+    padding-left: 49px;
+}
+
+.ui-name {
+    display: block;
+    font-size: 133px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.ui-name .ui-dot {
+    color: var(--accent-color);
+}
+
+._beginner {
+    display: inline;
+    margin-top: 8px;
+
+    font-size: 42px;
+    letter-spacing: 5px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+._beginner .quot-s {
+    text-transform: lowercase;
+    font-weight: 700;
+}
+
+.motto-wrap {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 153px;
+    padding-left: 102px;
+}
+
+.square-dot {
+    display: inline-block; 
+       
+    width: 12px;
+    height: 12px;
+    background-color: white;
+}
+
+.intro-square-aligned {
+    margin-top: 6px;
+}
+
+.motto {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 11px;
+
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+/* Right block - info */
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+
+.edition-2022-logo {
+    box-sizing: border-box;
+    margin-left: auto;
+    width: 179px;
+    padding: 23px 0 21px 35px;
+    border: 2px solid white;
+    border-right: none; 
+}
+
+.edition-2022-container {
+    display: inline-block;
+    font: 700 17px 'Krub', sans-serif;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.edition-2022-container :first-child {
+    letter-spacing: 4px;
+}
+
+.edition-2022-container :last-child {
+    display: block;
+    width: 86px;
+    font-size: 28px;
+}
+
+.info-container {
+    padding-top: 61px;
+    padding-left: 46px;
+    width: 286px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.info-header {
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.info-text {
+    margin: 12px 0 38px;
+    padding-right: 4px;
+
+    text-transform: none;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.info-container a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 125px;
+    padding: 12px 0;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.lets-start-link {
+    background-color: var(--accent-color);
+}
+
+/* Arrow navigation */
+.arrow-main {
+    margin-bottom: 111px;
+}
+
+.am-right {
+    align-self: flex-start;
+    margin-left: 32px;
+
+}
+
+.am-left {
+    align-self: flex-end;
+    margin-right: 32px;
+}
+
+/* Achievement section */
+.achievement-banner {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+    top: 808px;
+    /* bottom: 150px; */
+    width: 100%;
+    height: 220px;
+    box-shadow: 0px 8px 6px -3px black, 0px -8px 6px -3px black;
+
+    background-color: var(--bg-color);
+    color: white;
+    text-transform: uppercase;   
+}
+
+.achievement-number {
+    display: inline-block;
+    font: 500 50px 'Oswald', sans-serif;
+}
+
+.achievement-number::first-letter {
+    color: var(--accent-color);
+}
+
+.achievement-text {
+    display: inline-block;
+    margin-left: 10px;
+    font: 700 23px 'Krub', sans-serif;
+    line-height: 1.1;
+    letter-spacing: 2px;
+}
+
+.achievement-text::first-line {
+    font-weight: 500;
+}
+.studendCircle{
+    position: absolute;
+    top: 325px;
+    left: 540px;
+    z-index:0 ;
+
+}
+
+.TextText{
+   line-height: 1.8;
+    font-family: "Krub", serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: justify;
+    color: #FFFFFF;
+    font-size: 15px;
+    max-width:100% ;
+
+}
+
+/*.grid {
+    display: grid;
+    column-count: 2;
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    left: 15px;
+    margin-left: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    font-family: "Krub", serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #FFFFFF;
+    list-style-image: url("img/Shape 1.png");
+}
+
+.grid li {
+    text-indent: -2px;
+    margin-bottom: 50px;
+}
+
+.grid li:nth-child(2n) {
+    margin-bottom: 70px;
+}*/

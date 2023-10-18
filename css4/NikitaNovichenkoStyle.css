@@ -1,0 +1,165 @@
+.cont{
+	position: relative;
+	width: 1440px;
+	display: flex;
+	margin-left: -8px;
+	background: rgb(17, 17, 17);
+}
+
+body{
+	background:rgb(17, 17, 17) ;
+}
+
+.cont .text1{
+	width: 400px;
+	height: 10px;
+	font-family: 'Krub Bold1';
+	left: 15xp;
+	font-size: 30xp;
+	display: flex;
+	margin-right: 80xp;
+	color: white;
+	position: relative;
+}
+
+.cont .center_f{
+	justify-content: space-evenly;
+	position: relative;
+	left:-400px;
+	marging-left: 60px;
+	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	height: 605px;
+	width: 1041px;
+	background: rgb(222, 222, 222);
+}
+
+.cont .center_f .triangle{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	position: relative;	
+	left:-288px;
+	top:254px;
+	width: 0;
+	height: 0;
+	opacity: 30%;
+	border-top: 62.6px solid transparent;
+	/*border-left: 89.5px solid #6935ff;*/
+	border-left: 110px solid rgb(195, 125, 248);
+	border-bottom: 64px solid transparent;
+	background: linear-gradient();
+}
+
+.cont .center_f .ring1{
+	position: absolute;
+	left:363px;
+	top:160px;
+  width: 285.8px;
+  height: 285px;
+  border-radius: 50%;
+  border: 14px solid rgb(195, 125, 248);
+  opacity:30%;
+  vertical-align: middle;
+  }
+
+ .cont .center_f .ring2{
+	position: relative;
+	left:363px;
+	top:160px;
+  width: 292.5px;
+  height: 292.5px;
+  border-radius: 50%;
+  background: green;
+  border: 11.2px solid rgb(21, 12, 201);
+  opacity:0%;
+  vertical-align: middle;
+  overflow: hide;
+  }
+
+
+.cont .text1 h1{
+	margin-right: 20px;
+ 	top: 430px;
+ 	right: 47px;
+ 	position: relative;
+   color: white;
+   font-size: 21px ;
+   text-align: justify;
+   transform: rotate(270deg);
+}
+
+.cont .center_f .start {
+	top: 273px;
+ 	left:58px;
+ 	position: relative;
+ 	font-family: 'Oswald';
+	color: rgb(191, 191, 191);
+	font-size:83px;
+}
+
+.cont .center_f .start stan{
+	margin-right: 3px;
+}
+
+.cont .center_f .now stan{
+	margin-right: 3px;
+}
+
+
+.cont .center_f stan {
+} 
+
+.cont .center_f .now {
+	top: 272px;
+ 	left:-59px;
+ 	position: relative;
+	color: rgb(191, 191, 191);;
+	font-size:83px;
+	overflow: visible;
+	font-family: 'Oswald';
+}
+
+.cont .text2{
+	position: relative;
+	top:232px;
+	left: -13px;
+	width: 400px;
+	height: 10px;
+	font-family: 'Krub Bold1';
+	display: flex;
+ 	flex-direction: column;
+	margin-left: 100xp;
+	color: white;
+}
+
+.cont .text2 h {
+ 	top:-10px;
+ 	left: 40px;
+ 	position: relative;
+   color: white;
+   font-size: 21px ;
+   transform: rotate(270deg);
+}
+
+
+.pict1{
+	position: relative;
+	left:80px;
+	top:20px;
+	overflow:  ;
+}
+
+.pict2{
+	position: relative;
+	left:123px;
+	top:216px;
+}
+
+.cont .text1 .arrow1{
+	position: relative;
+	display: flex;
+	top:263px;
+	left:-15px;
+}

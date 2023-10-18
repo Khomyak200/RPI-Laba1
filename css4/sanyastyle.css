@@ -1,0 +1,112 @@
+#sfive {
+    height: 962px;
+}
+
+#sseven{
+    height: 1145px;
+    padding-top: 5px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    position: absolute;
+}
+
+.right5 {
+    position: absolute;
+    padding: 205px 880px;
+    font-family: 'Krub', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    white-space: normal;
+    text-align: justify;
+    line-height: 1.6;
+    color: #F2F2F2;
+    overflow: auto;
+    white-space: normal;
+}
+
+.purple-button {
+    background-color: #AA84F9;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.text7{
+    font-family: 'Krub', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    white-space: normal;
+    text-align: center;
+    line-height: 0.9;
+    color: #F2F2F2;
+    /*overflow: auto;*/
+    white-space: normal;
+}
+
+.image-container7 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: gray;
+}
+  
+.box {
+    /*flex: 0 0 31%;*/
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+    box-sizing: border-box;
+    padding-top: 30px;
+    width: 31%;
+}
+
+.box-text{
+    padding-top: 30px;
+    font-size: 15px
+}
+
+.star-row {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.star {
+    margin: 7px;
+}
+
+.mini-text-box{
+    text-align: center;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 60%;
+    display: block; 
+    font-family: 'Krub', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    white-space: normal;
+    line-height: 1.6;
+    overflow: auto;
+}

@@ -1,0 +1,20 @@
+@font-face{
+	font-family: 'Krub Bold1';
+	src:url('Krub Bold1/Krub-Bold.ttf')  format('truetype');
+}
+
+@font-face{
+	font-family: 'Krub Regular1';
+	src:url('Krub Bold1/Krub-Regular.ttf')  format('truetype');
+}
+
+@font-face{
+	font-family: 'Krub Semibold1';
+	src:url('Krub Bold1/Krub-Semibold.ttf')  format('truetype');
+}
+
+
+@font-face{
+	font-family: 'Oswald';
+	src:url('Krub Bold1/oswald-bold.ttf')  format('truetype');
+}

@@ -1,0 +1,311 @@
+
+
+.c{
+	width: 1440px;
+	background: rgb(17,17,17);
+    display: flex;
+    flex-direction: column;
+    margin-left: -8px;
+}
+
+.FirstN {
+  	display: flex;
+}
+
+.FirstN .Right {
+  	margin-top: 26px;
+  	margin-left: -75px;
+  	display: flex;
+  	flex-direction: column; /* Располагаем элементы в столбец */
+}
+
+.FirstN .Right .Text .Subscribe p{
+	margin-left: -38px;
+	font-family: 'Krub Bold', sans-serif;
+	font-style: normal;	
+	text-align: center;
+	color: white;
+	font-size: 49px;
+}
+
+.FirstN .Right .Text .Ton p{
+	letter-spacing: 4.5px;
+	font-family: 'Krub Regular', sans-serif;
+	font-weight: normal;
+	margin-top: -52px;
+	font-style: normal;
+	text-align: left;
+	color: rgb(138,109,198);
+	font-size: 46px;
+}
+.FirstN .Right .Text .Letter p{
+	letter-spacing: 0.55px;
+	line-height: 70px;
+	font-family: 'Krub SemiBold';
+	text-align: center;
+	margin-top: -54.5px;
+	margin-left: -38px;
+	color: white;
+	font-size: 16.01px;
+}
+
+.FirstN .Right .Blocks div{
+	margin-left: -38px;
+	margin-top: 54px;
+	width: 507px;
+}
+
+.FirstN .Right .Blocks .Name {
+	border-width: 3px;
+	border-color: rgb(151,110,206);
+	border-style: solid;
+	height: 65px;
+
+}
+
+.FirstN .Right .Blocks .Mail {
+	border-width: 3px;
+	border-color: rgb(151,110,206);
+	border-style: solid;
+	height: 65px;
+	margin-top: 57px;
+
+}
+
+.FirstN .Right .Blocks .Message {
+	margin-left: -37px;
+	width: 510;
+	margin-top: 47px;
+	border-width: 3px;
+	border-color: rgb(151,110,206);
+	border-style: solid;
+	height: 175px;
+
+}
+
+.FirstN .Right .Blocks p{
+	font-family: 'Krub Bold';
+	font-size: 17.3px;
+	color: rgb(106,106,106);
+	font-style: normal;
+	text-align: left;
+	letter-spacing: 3px;
+}
+
+.FirstN .Right .Blocks .Name p{
+	margin-left: 40px;
+	margin-top: 24px;
+}
+
+.FirstN .Right .Blocks .Mail p{
+	margin-left: 40px;
+	margin-top: 21px;
+}
+
+.FirstN .Right .Blocks .Message p{
+	margin-left: 38px;
+	margin-top: 25px;
+}
+
+.FirstN .Right .Button{
+	text-align: center;
+}
+
+.FirstN .Right .Button button{
+	width:  169px;
+	height: 64px;
+	background-color: rgb(151,110,206);
+	border: 5px;
+	font-family: 'Oswald Bold';
+	font-size: 13.5px;
+	letter-spacing: 1.3px;
+	margin-top: 83px;
+	margin-left: -38px;
+	align-content: center;
+	color: #FFFFFF; 
+}
+
+
+
+.SecondN {
+	display: flex;
+	align-items: center;
+	margin-top: -4px;
+	width: 1440px;
+	height: 741px;
+	background-color: rgb(151,110,206);
+}
+
+.SecondN .Left {
+	margin-top: 18px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 58px;
+}
+
+.SecondN .Left .About p{
+	letter-spacing: 3.7px;
+	word-spacing: -10px;
+	position: left;
+	color: white;
+	font-family: 'Krub Bold';
+	font-size: 33px;
+}
+
+.SecondN .Podch {
+	margin-left: -1px;
+	margin-top: -79px;
+}
+
+.SecondN .Podch p{
+	color: white;
+	font-family:'Krub Medium';
+	font-size: 24.4px;
+}
+
+.SecondN .Text{
+	margin-top: -19px;
+}
+
+.SecondN .Left .Text p {
+	line-height: 19px;
+	color: white;
+	font-family:'Krub Medium';
+	font-size: 25px;
+	letter-spacing: 0.1px;
+}
+
+.SecondN .Center {
+	margin-top: 18px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 115px;
+}
+
+.SecondN .Center .Wd p{
+	letter-spacing: 3.3px;
+	color: white;
+	font-family: 'Krub Bold';
+	font-size: 33px;
+}
+
+.SecondN .Center .Text p {
+	line-height: 19px;
+	color: white;
+	font-family:'Krub Medium';
+	font-size: 25px;
+	letter-spacing: 0.8px;
+}
+
+.SecondN .Right {
+	width: 768px;
+	margin-top: 51px;
+	display: flex;
+	flex-direction: column;
+}
+
+.SecondN .Right .About p{
+	letter-spacing: 0.1px;
+	line-height: 17px;
+	text-align: right;
+	color: white;
+	font-family: 'Krub Bold';
+	font-size: 33px;
+}
+
+.SecondN .Right .About .Sec{
+	margin-right: 1px;
+	margin-top: -34px;
+	float: right;
+	display: flex;
+	flex-direction: row;
+}
+
+.SecondN .Right .About .Sec .Podch {
+	margin-top: 54px;
+	margin-right: 15.5px;
+	width: 46px;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	height: 0px;
+}
+
+.SecondN .Right .Block{
+	margin-top: 32px;
+	width: 770px;
+	height: 60px;
+}
+
+.SecondN .Right .Block .Bl{
+	width: 494px;
+	border-width: 3px;
+	border-color: white;
+	border-style: solid;
+	height: 60px;
+	float:right;
+}
+
+.SecondN .Right .Cont{
+	margin-top: 63px;
+	width: 768px;
+	height: 60px;
+	flex-direction: row;
+}
+
+.SecondN .Right .Cont .Text{
+	float: right;
+	color: white;
+	font-family:'Krub Medium';
+	font-size: 25px;
+	margin-top: -11px;
+}
+
+.SecondN .Right .Cont i{
+	color: rgb(151,110,206);
+}
+
+.SecondN .Right .Cont .Circle1 {
+	float: right;
+  	width: 65px;
+  	height: 65px;
+  	background-color: rgb(230,230,230);
+  	border-radius: 50%;
+  	margin-left: 67px;
+}
+
+.SecondN .Right .Cont .Circle2 {
+	float: right;
+  	width: 65px;
+  	height: 65px;
+  	background-color: rgb(230,230,230);
+  	border-radius: 50%;
+  	margin-left: 68px;
+}
+
+.SecondN .Right .Cont .Circle3 {
+	float: right;
+  	width: 65px;
+  	height: 65px;
+  	background-color: rgb(230,230,230);
+  	border-radius: 50%;
+  	margin-left: 46px;
+}
+
+.SecondN .Right .Cont .Circle1 i{
+	margin-left: 22px;
+	margin-top: 20px;
+	font-size: 26.7px;
+}
+
+.SecondN .Right .Cont .Circle2 i{
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 27px;
+}
+
+.SecondN .Right .Cont .Circle3 i{
+	margin-top: 22px;
+	margin-left: 26.5px;
+	font-size: 24px;
+}
